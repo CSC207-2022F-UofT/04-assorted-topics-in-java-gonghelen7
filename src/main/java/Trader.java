@@ -40,6 +40,7 @@ public class Trader<T> {
      *       empty ArrayLists for their inventory and wishlist.
      */
 
+
     public Trader(int money) {
         this.inventory = new ArrayList<>();
         this.wishlist = new ArrayList<>();

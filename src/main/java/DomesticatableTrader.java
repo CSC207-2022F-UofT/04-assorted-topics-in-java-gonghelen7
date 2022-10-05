@@ -38,7 +38,6 @@ class DomesticatableTrader extends Trader<Domesticatable> {
         if (super_price == Tradable.MISSING_PRICE) {
             return super_price;
         }
-
         return super_price * 2;
 
     }

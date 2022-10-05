@@ -31,6 +31,7 @@ class DomesticatableTrader extends Trader<Domesticatable> {
         super(money);
     }
 
+
     @Override
     public int getSellingPrice(Domesticatable item) {
         int super_price = super.getSellingPrice(item);
